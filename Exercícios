@@ -1,0 +1,79 @@
+EXERCÍCIO 3 
+
+programa {
+  funcao inicio() {
+    
+    
+real nota1, nota2, nota3, media
+caracter nome 
+escreva ("Digite o nome do aluno:")
+leia (nome)
+escreva ("Digite a 1ª nota: ")
+leia (nota1)
+escreva ("Digite a 2ª nota: ")
+leia (nota2)
+escreva ("Digite a 3ª nota:")
+leia (nota3)
+media = (nota1+ nota2+ nota3) /3
+escreva ( "A média do aluno é:", media)
+  }
+}
+
+
+
+EXERCÍCIO 4
+
+
+programa {
+  funcao inicio() {
+
+
+
+    inteiro a, b, c
+
+escreva ("digite o valor de a:")
+leia (a) 
+escreva ( "Digite o valor de b:")
+leia (b)
+c = a
+a = b
+b  = c
+
+escreva (" a agora vale: " + a + "\n")
+escreva ( " b agora vale: " + c + "\n")
+  } 
+}
+
+
+EXERCÍCIO 5
+
+
+programa {
+  funcao inicio() {
+    
+
+    cadeia nome
+    real salario_fixo, total_de_vendas, 
+
+escreva ("Digite o nome do vendedor: ")
+leia (nome) 
+
+escreva ("Digite o salário fixo: ")
+leia (salario_fixo)
+
+escreva ("Digite o valor total de vendas: ")
+leia (total_de_vendas)
+
+
+
+  }
+}
+
+
+
+
+
+
+
+
+
