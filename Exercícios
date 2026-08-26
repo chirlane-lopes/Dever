@@ -20,6 +20,30 @@ escreva ( "A média do aluno é:", media)
 }
 
 
+JAVA
+
+public static void main() {
+    {
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.print( "Digite o nome do Aluno: ");
+        String String = new Scanner(System.in).nextLine();
+
+        System.out.print( "Digite a primeira nota: ");
+        Double numero1 = entrada.nextDouble();
+
+    System.out.print( "Digite a segunda nota: ");
+Double numero2 = entrada.nextDouble();
+
+    System.out.print( "Digite a terceira nota: ");
+Double numero3 = entrada.nextDouble();
+
+double media = ( numero1 + numero2 + numero3) /3;
+    System.out.println( "A média das notas é: " + media);
+    entrada.close();
+    }
+            }
+
 
 EXERCÍCIO 4
 
@@ -44,6 +68,27 @@ escreva ( " b agora vale: " + c + "\n")
   } 
 }
 
+JAVA
+
+public static void main(String[] args) {
+    {
+        Scanner entrada = new Scanner(System.in);
+    int aux;
+   System.out.println("Digiteo valor de A:" );
+        int A = entrada.nextInt();
+
+        System.out.println("Digiteo valor de B:" );
+        int B = entrada.nextInt();
+
+           aux = A;
+            A = B;
+            B = aux;
+        System.out.println("O novo vaLor de A é:" +A);
+        System.out.println("O novo vaLor de B é:" +B);
+                
+            }
+            }
+
 
 EXERCÍCIO 5
 
@@ -63,14 +108,28 @@ leia (salario_fixo)
 
 escreva ("Digite o valor total de vendas: ")
 leia (total_de_vendas)
-
-
-
   }
 }
 
 
+JAVA 
 
+public static void main(String[] args) {
+    {
+        Scanner entrada = new Scanner(System.in);
+
+        System.out.print( "Digite o nome do Vendedor: ");
+        String String = new Scanner(System.in).nextLine();
+
+        System.out.print( "Digite o Salário Fixo: ");
+        String  = new Scanner(System.in).nextLine();
+
+        System.out.print( "Digite o valor total de vendas: ");
+        String = new Scanner(System.in).nextLine();
+
+    }
+
+            }//
 
 
 
