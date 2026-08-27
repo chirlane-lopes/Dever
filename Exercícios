@@ -91,23 +91,29 @@ public static void main(String[] args) {
 
 
 EXERCÍCIO 5
-
-
 programa {
   funcao inicio() {
-    
 
-    cadeia nome
-    real salario_fixo, total_de_vendas, 
+// Declaraçao de variáveis 
+cadeia nome
+real salario_fixo, total_vendas, comissao, salario_total 
 
-escreva ("Digite o nome do vendedor: ")
-leia (nome) 
+escreva ( " Digite o nome do vendedor: ")
+leia (nome)
+ escreva  ("Digite o salário fixo:")
+ leia (salario_fixo)
+ escreva ("Digite o valor total de vendas:")
+leia ( total_vendas)
 
-escreva ("Digite o salário fixo: ")
-leia (salario_fixo)
+comissao = total_vendas * 0.15
+salario_total = salario_fixo + comissao
 
-escreva ("Digite o valor total de vendas: ")
-leia (total_de_vendas)
+escreva ("Salário fixo: R$ ", salario_fixo) 
+
+escreva ( "\n Valor da comissão: R$" , comissao) 
+
+escreva ("\n Salário total no final do mês: R$" , salario_total ) 
+
   }
 }
 
