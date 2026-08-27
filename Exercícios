@@ -122,18 +122,27 @@ JAVA
 
 public static void main(String[] args) {
     {
-        Scanner entrada = new Scanner(System.in);
+Scanner scanner = new Scanner( System.in);
 
-        System.out.print( "Digite o nome do Vendedor: ");
-        String String = new Scanner(System.in).nextLine();
 
-        System.out.print( "Digite o Salário Fixo: ");
-        String  = new Scanner(System.in).nextLine();
+        System.out.print("Digite o nome do Vendedor: ");
+        String nome = new Scanner(System.in).nextLine();
 
-        System.out.print( "Digite o valor total de vendas: ");
-        String = new Scanner(System.in).nextLine();
+        System.out.print("Digite o Salário Fixo: ");
+        double salarioFixo = scanner.nextDouble();
 
-    }
+        System.out.print("Digite o valor total de vendas: ");
+        double totalVendas = scanner.nextDouble();
+
+        // Calculo da Comissão
+        double comissao = totalVendas *0.15;
+        double salarioTotal  = salarioFixo + comissao;
+
+        System.out.println( "\n--- Resumo---");
+        System.out.println( "Vendedor: " + nome);
+        System.out.println( "Salário Fixo: R$ " + String.format( "%.2f", salarioFixo));
+        System.out.println( "Comissão: R$ " + String.format( "%.2f", comissao));
+        System.out.println( "Salário Total: R$" + String.format("%.2f", salarioTotal));
 
             }//
 
