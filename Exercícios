@@ -144,7 +144,12 @@ Scanner scanner = new Scanner( System.in);
         System.out.println( "Comissão: R$ " + String.format( "%.2f", comissao));
         System.out.println( "Salário Total: R$" + String.format("%.2f", salarioTotal));
 
-            }//
+            }
+}
+
+
+
+
 
 
 
