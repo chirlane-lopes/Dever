@@ -1,3 +1,164 @@
+Exercícios: 
+1 
+programa {
+  funcao inicio() {
+
+real temperatura
+real temeraturaIdeal = 28
+
+escreva ("Digite a temperatura: ")
+leia (temperatura)
+
+se (temperatura >= temeraturaIdeal)
+{
+  escreva("Você deve ligar o ar-condicionado.")
+}
+senao {
+  escreva ("Mantenha o ar-condicionado desligado.")
+
+}
+  }
+}
+
+
+
+Java
+
+public static void main(String[] args) {
+
+       Scanner sc = new Scanner(System.in);
+
+       double temperaturaMaxima = 28.0;
+       System.out.print("Digite a temperatura atual em ºC: ");
+       double temperaturaAtual =  sc.nextDouble();
+
+       if (temperaturaAtual >= temperaturaMaxima){
+              System.out.println("Ligue o ar-condicionado.");
+       } else {
+              System.out.println("Não ligue o ar-condicionado.");
+       }
+}
+
+EXERCÍCIO 2
+
+programa {
+  funcao inicio() {
+
+// Variáveis
+
+inteiro quantidade
+real valorUnitario, valorTotal
+              
+escreva("Digite a quantidade de produtos: ")
+leia (quantidade)                 
+
+escreva("valor unitario é R$: ", valorUnitario)
+leia (valorUnitario)
+
+
+// Calculo do valor total
+
+valorTotal = quantidade * valorUnitario
+
+escreva("Quantidade", quantidade, "\n")
+escreva( "Valor unitárioR$: ", valorUnitario, "\n")
+escreva( "Valot totalR$: ", valorTotal, "\n")
+
+se (valorTotal > 100.00)
+{ 
+escreva ("Você ganhou frete grátis:")
+}
+senao
+{
+escreva("Frete não disponível.")
+}
+}
+  }
+}
+  }
+}
+
+JAVA
+
+public static void main(String[] args) {
+
+    Scanner scanner = new Scanner(System.in);
+
+
+       System.out.print("Digite a quantidade de produtos: ");
+       int quantidade = scanner.nextInt();
+
+       System.out.print("valor unitario é R$: ");
+        double valorUnitario = scanner.nextDouble();
+        // Calculo do valor total
+
+       double valorTotal = quantidade * valorUnitario;
+
+       System.out.println("Quantidade: " + quantidade);
+       System.out.println("Valor unitárioR$: "+ valorUnitario);
+       System.out.println("Valot totalR$: " + valorTotal);
+
+       if (valorTotal > 100.00) {
+              System.out.println("Você ganhou frete grátis.”);
+       }
+
+       else
+       {
+              System.out.println("Frete não disponível.");
+       }
+             }
+
+
+EXERCÍCIO 3 
+
+programa {
+  funcao inicio() {
+
+caracter nome
+inteiro idade
+
+escreva("Digite o seu nome: ")
+leia (nome)
+
+escreva("Digite a sua idade: ")
+leia (idade)
+ 
+ se ( idade >= 18 )
+ {
+  escreva( "Participação autorizada. ")
+ }
+ senao {
+  escreva ("Necessária autorização dos responsáveis.")
+  
+ }
+
+  }
+}
+
+JAVA
+
+
+public static void main(String[] args) {
+        {
+                Scanner sc = new Scanner(System.in);
+                System.out.println("Digite o nome: ");
+                String nome =  sc.nextLine();
+
+                System.out.println("Digite a idade: ");
+                int idade = sc.nextInt();
+
+                if (idade >= 18) {
+                        System.out.println("Participação autorizada");
+                } else {
+                        System.out.println("Necessária autorização dos responsáveis");
+                }
+                }
+   }
+
+
+antigoos 
+
+
 EXERCÍCIO 3 
 
 programa {
